@@ -1,3 +1,5 @@
+Flutter SDK 3.27.2
+
 Use Case:
 1. Open app, cast to Google nest automatically
 2. Control next video and queues using voice commands
