@@ -1,16 +1,20 @@
-# news
+Use Case:
+1. Open app, cast to Google nest automatically
+2. Control next video and queues using voice commands
+3. Display today news and yesterday news
+4. Auto check App updates
+5. Add channel to their favorites
 
-A new Flutter project.
+Flow:
+User can open the app with Google assistant commands and also control the app with voice.
 
-## Getting Started
+Technical Tackle:
+1. YouTube Api  [#](https://pub.dev/packages/youtube_player_flutter)[2](https://pub.dev/documentation/youtube_api/latest/)
+2. Google assistant API [#](https://www.youtube.com/watch?v=I3wkvYzjeiA)
+3. Cast to Google Nest [#](https://pub.dev/packages/googlecast)
+4. Check App updates (Google Drive)
+5. Firebase
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Potential Technical Tackle:
+1. Google Home Api [#](https://developers.home.google.com/apis)
+2. Open app with Google assistant [#](https://fidev.io/ok-google-flutter/)
