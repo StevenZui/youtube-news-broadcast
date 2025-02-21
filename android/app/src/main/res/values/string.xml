@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="playTodayNews">Play Today News</string>
+
+    <string-array name="news">
+        <item>Today News</item>
+        <item>Headline News</item>
+    </string-array>
+</resources>

@@ -24,6 +24,23 @@
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+
+            <!-- this intent-filter is used to enable deep linking,
+            allowing the app to be launched from a web link or another app with the specified URI schemes -->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.VIEW" />-->
+<!--                <category android:name="android.intent.category.DEFAULT" />-->
+<!--                <category android:name="android.intent.category.BROWSABLE" />-->
+<!--                &lt;!&ndash; Accepts URIs that begin with "myapp://playnews" &ndash;&gt;-->
+<!--                <data android:scheme="myapp" android:host="playnews" />-->
+<!--            </intent-filter>-->
+<!--            </intent-filter>-->
+
+            <!--contains metadata so the AndroidManifest is aware of the shortcuts.xml file-->
+            <meta-data
+                android:name="android.app.shortcuts"
+                android:resource="@xml/shortcuts" />
+
         </activity>
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
